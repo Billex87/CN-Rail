@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS users CASCADE;
+CREATE TABLE users (
+id SERIAL PRIMARY KEY NOT NULL,
+date_end TIMESTAMP,
+end_time TIME,
+route_id INTEGER,
+trip_id INTEGER REFERENCES trips(id) ON DELETE CASCADE,
+  );
+ALTER TABLE users OWNER TO labber;
