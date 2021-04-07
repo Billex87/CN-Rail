@@ -6,7 +6,6 @@ days_worked INTEGER NOT NULL,
 hours_worked INTEGER NOT NULL,
 miles_travlled INTEGER NOT NULL,
 trip_id INTEGER REFERENCES trips(id) ON DELETE CASCADE,
-user_id INTEGER REFERENCES users(id) ON DELETE CASCADE,
-
-  );
+user_id INTEGER REFERENCES users(id) ON DELETE CASCADE
+);
 ALTER TABLE reports OWNER TO labber;

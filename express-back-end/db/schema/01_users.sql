@@ -8,6 +8,6 @@ CREATE TABLE users (
   service_class VARCHAR(255) NOT NULL,
   tracking_method BOOLEAN DEFAULT FALSE,
   homeyard VARCHAR(255) NOT NULL,
-  certifcation_expiration TIMESTAMP, 
+  certifcation_expiration TIMESTAMP
 );
 ALTER TABLE users OWNER TO labber;
