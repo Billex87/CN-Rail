@@ -15,5 +15,9 @@ App.get('/api/data', (req, res) => res.json({
 
 App.listen(PORT, () => {
   // eslint-disable-next-line no-console
-  console.log(`Express seems to be listening on port ${PORT} so that's pretty good 👍`);
+  console.log(`Express seems to be listening on port ${PORT} so that's pretty fly for a white guy`);
 });
+
+const usersRoutes = require("./routes/users");
+
+app.use("/api/users", usersRoutes(db));
