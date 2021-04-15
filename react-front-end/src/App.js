@@ -8,10 +8,7 @@ export default function App () {
   
     return (
       <div className="App">
-        <h1>{ this.state.message }</h1>
-        <button onClick={this.fetchData} >
-          Fetch Data
-        </button>        
+        <h1>HELLO WORLD</h1>     
       </div>
     );
 
