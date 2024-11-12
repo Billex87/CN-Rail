@@ -14,8 +14,8 @@
   },
   "dependencies": {
     "body-parser": "^1.18.3",
-    "cross-spawn": "^5.0.1",
+    "cross-spawn": "^7.0.5",
     "express": "^4.16.4",
-    "nodemon": "^1.18.7"
+    "nodemon": "^2.0.3"
   }
 }
