@@ -4,10 +4,10 @@
   "private": true,
   "dependencies": {
     "axios": "^0.18.1",
-    "cross-spawn": "^5.0.1",
+    "cross-spawn": "^7.0.5",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "2.1.8"
+    "react-scripts": "5.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -26,6 +26,6 @@
   ],
   "proxy": "http://localhost:8080",
   "devDependencies": {
-    "cross-spawn": "^6.0.5"
+    "cross-spawn": "^7.0.5"
   }
 }
